@@ -4,7 +4,7 @@ def ingest_customer(customer):
     """
 
     if not customer:
-        raise ValueError("Customer input is required")
+        raise ValueError("Customer data must be provided")
 
     if "customer_id" not in customer:
         raise ValueError("customer_id is required")
